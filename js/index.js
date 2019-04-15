@@ -24,7 +24,7 @@ $(function() {
 
     $('#previewScreen')
         .toggle()
-        .animate()({ right: "0px" }, 250); 
+        .animate({ right: "0px" }, 250); 
   });
   $('#cancelPreview').on("click", function(e) {
     event.preventDefault();
